@@ -1,4 +1,4 @@
-# Friend Computer
+# Friend Computer v1.0.0
 
 A software tool for emulating The Computer from the Paranoia roleplaying game.
 
