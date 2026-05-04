@@ -1,0 +1,12 @@
+# Required
+# pygame-ce is a drop-in replacement for pygame with up-to-date Python wheels
+# (notably for Python 3.13/3.14). It exposes the same `import pygame` module.
+pygame-ce>=2.5
+pyttsx3>=2.90
+screeninfo>=0.8
+
+# Optional but recommended -- enables audio frequency-modulation effects.
+# Without these the script still works, just without the FM/glitch audio.
+numpy>=1.24
+soundfile>=0.12
+sounddevice>=0.4
