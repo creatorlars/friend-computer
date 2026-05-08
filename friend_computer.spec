@@ -51,7 +51,9 @@ exe = EXE(
     console=True,
     disable_windowed_traceback=False,
     argv_emulation=False,
-    target_arch="x86_64",
+    # Build for the host architecture to avoid cross-arch mismatches in CI
+    # (for example, arm64-only wheels on Apple Silicon runners).
+    target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
 )
