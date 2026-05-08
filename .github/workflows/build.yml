@@ -18,7 +18,7 @@ jobs:
         include:
           - os: windows-latest
             artifact: friend-computer-windows.exe
-          - os: macos-13
+          - os: macos-latest
             artifact: friend-computer-macos
           - os: ubuntu-latest
             artifact: friend-computer-linux
